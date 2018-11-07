@@ -1,0 +1,260 @@
+/*Estilo da página index*/
+.entrar{
+	float: right;
+    margin-top: -390px;
+    margin-right: 30px;
+}
+.dropentrar{
+	margin-right: 30px;
+}
+.drop1:hover{
+	background-color: dodgerblue;
+}
+.drop2:hover{
+	background-color: dodgerblue;
+}
+.drop3:hover{
+	background-color: dodgerblue;
+}
+
+.botaoresponsivo{
+	margin-top: 28px;
+}
+.imgface{
+       width: 42px;
+       height: 48px;
+       float: left;
+}
+.botoesnav{
+ 		margin-top: 30px;
+}
+.acessoremoto{
+    height: 180px;
+	width: 230px;
+	float: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.cadastrocliente{
+	height: 180px;
+    width: 230px;
+    border-radius: 10px 10px 10px 10px;
+}
+.cadastrotecnico{
+	height: 180px;
+    width: 230px;
+    border-radius: 10px 10px 10px 10px;
+}
+.sobre{
+	height: 180px;
+    width: 230px;
+    float: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.espaco{
+	text-align: center;
+}
+
+/*Estilos da página index e da pagina sobre*/
+.footerindex{
+	text-align: center;
+}
+#facefooter{
+	margin-top: 20px;
+}
+#emailfooter{
+	margin-top: 20px;
+
+}
+#turmafooter{
+	margin-top: 25px;
+}
+
+
+/*Estilo da página sobre*/
+.facesobreimg{
+       width: 42px;
+       height: 48px;
+       float: left;
+}
+/*Estilo da página sobre, cadastro_cliente e cadastro_tecnico*/
+.placedate{
+                text-align: center;
+ }
+
+.voltar{
+	background-color: #07539c; 
+	margin-top: 15px;
+	border-radius: 8px 0px 8px 0px;	
+}
+.voltar:hover{
+	background-color: dodgerblue;	
+}
+.voltaresc:hover{
+	text-decoration: none;
+}
+
+
+/*Estilo de todas as páginas*/
+.menuCent ul {
+           width: 570px; 
+           margin: 0 auto;
+}
+header{
+	width: 100%;
+	height:355px;
+	background-color:#07539c;
+	margin-bottom: 22px;
+}
+header img{
+	height: 350px;
+	width: 100%;
+	margin-top: -2px;
+}
+body{
+	/*background-image:url('../img/fundo.png');*/
+}
+li:hover{
+	background-color:dodgerblue;
+}
+li{
+/*Usar em alguns casos*/
+	/*padding-left:80px;
+	padding-right:8px;
+    padding-top:80px;
+	padding-bottom:8px;*/
+	background-color: #A2B5CD;
+
+	margin-top: 2.5px;
+	height: 42px;
+    
+    /*padding: top,left,bottom,right;*/
+    padding: 1px 5px 1px 5px;
+    
+    border-radius: 10px 0px 10px 0px;
+    /*border-radius: encima esquerda, encima direita, embaixo direita, embaixo esquerda*/
+}
+footer{
+	width: 100%;
+	height:230px;
+	background-color:#07539c;
+	clear: both;
+}
+.imgcep{
+    height: 90px;
+    float: right;
+}
+.imgti{
+    height: 100px;
+    float: left;
+}
+.emailfooter{
+    
+}
+.facefooter{
+    
+}
+aside{
+	height:600px;
+	width:300px;
+	border:1px solid dodgerblue;
+	border-radius:5px;
+	padding-top:-10px;
+}
+/*Estilo dos botões que estão em li*/
+.btnimg{
+	text-align: center;
+}
+.fix {
+	clear: both;
+}
+
+/*SlidePrincipal*/
+#divSlider{
+	width: 50%;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	/*posicionando os 3 elementos dentro da div,
+	 posicionando da melhor maneira possivel*/
+	align-items: center;
+	border: 1px solid black;
+}
+#bordaLoad{
+	width: 100%;
+	height: 3.5px;
+}
+
+/*Estilo paginas cadastrocliente/cadastrotecnico*/
+#header_cadastro{
+            background-color: #07539c;
+            height: 134px;                
+            border-radius: 0px 0px 10px 10px;
+            /*border-radius: encima esquerda, encima direita, embaixo direita, embaixo esquerda*/
+            text-align: center;
+            margin-bottom: 5px;
+}
+#footer_cadastro{
+            background-color: #07539c;
+            height: 130px;                
+            border-radius: 10px 10px 0px 0px;
+            /*border-radius: encima esquerda, encima direita, embaixo direita, embaixo esquerda*/
+            text-align: center;
+            clear: both;
+            margin-top: 5px;
+}
+.formulariocli{
+        background-color: #DCDCDC;
+        margin: 0 auto;
+        width: 37%;
+        text-align: right;
+        border-radius: 8px;
+        margin-top: -74px;
+        height: 695px; 
+        margin-bottom: -5px;
+}
+.formulariotec{
+	background-color: #DCDCDC;
+        margin: 0 auto;
+        width: 37%;
+        text-align: right;
+        border-radius: 8px;
+        margin-top: -74px;
+        height: 1040px; 
+        margin-bottom: -5px;
+}
+.label1{
+     margin: 0 auto;
+}         
+::placeholder{
+        text-align: center;
+}
+
+/*estilo da pagina login_cliente*/
+#headerlogin{
+            background-color: #07539c;
+            height: 200px;                
+            border-radius: 0px 0px 10px 10px;
+            /*border-radius: encima esquerda, encima direita, embaixo direita, embaixo esquerda*/
+            text-align: center;
+            margin-bottom: 5px;
+}
+#footerlogin{
+            background-color: #07539c;
+            height: 200px;                
+            border-radius: 10px 10px 0px 0px;
+            /*border-radius: encima esquerda, encima direita, embaixo direita, embaixo esquerda*/
+            text-align: center;
+}
+.formulariologin{
+        background-color: #DCDCDC;
+        margin: 0 auto;
+        width: 37%;
+        height: 303px;
+        text-align: right;
+        border-radius: 8px;
+        margin-top: -74px;
+        margin-bottom: 5px;
+}
+.botaocad:hover{
+    background-color: white;
+}
